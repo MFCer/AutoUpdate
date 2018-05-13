@@ -2,12 +2,14 @@
 
 本项目是一款基于MFC实现的自动更新模块
 
+[![license](https://img.shields.io/badge/license-Apache%202-brightgreen.svg?style=flat)](https://github.com/MFCer/AutoUpdate/blob/master/LICENSE)
+
 # 特点
 
+- 基于HTTP文件服务器，多线程下载
 - 提供配置工具
 - 支持多国语言（默认英文、简体中文、繁体中文）
 - 极简设计，仅气泡交互（更新进度和状态等）
-- 基于HTTP文件服务器，多线程下载
 - 提供默认内嵌类，即插即用
 - 关于内部细节：
 	- 支持全屏检测，默认无全屏应用工作时提示更新
