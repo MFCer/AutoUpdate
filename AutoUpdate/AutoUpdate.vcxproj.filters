@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="更新文件">
+      <UniqueIdentifier>{ff46b5fd-4ed4-4720-bb37-6ef1d0f53e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="全局">
+      <UniqueIdentifier>{2acf6ca5-9834-4f60-9672-dff5982f2165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件">
+      <UniqueIdentifier>{7a391c46-80ba-4bf2-ae95-bbfa5eb1f084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\本地化（多语言）">
+      <UniqueIdentifier>{c3a2debf-af85-4411-b51e-559359dbf646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\HASH计算">
+      <UniqueIdentifier>{a9582ec1-464f-4340-9846-1fa63426dc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\INI文件操作">
+      <UniqueIdentifier>{925656d4-a3bd-4b28-88ef-d1051a13e46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\全屏检测">
+      <UniqueIdentifier>{4c8816ab-0f58-4eda-bf85-39ba8fc08bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\更新说明读取">
+      <UniqueIdentifier>{2ddd70cf-c6e5-4257-826f-477e1273f543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\删除文件">
+      <UniqueIdentifier>{5e388347-08af-487f-b663-7b2701dc4b29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoUpdate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoUpdateDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InetFile.cpp">
+      <Filter>更新文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InetFiles.cpp">
+      <Filter>更新文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateFile.cpp">
+      <Filter>更新文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateFiles.cpp">
+      <Filter>更新文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>全局</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalizeMgr.cpp">
+      <Filter>组件\本地化（多语言）</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\HashMgr.cpp">
+      <Filter>组件\HASH计算</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\IniFileOperations.cpp">
+      <Filter>组件\INI文件操作</Filter>
+    </ClCompile>
+    <ClCompile Include="FullScreenChecker.cpp">
+      <Filter>组件\全屏检测</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateHintFileReader.cpp">
+      <Filter>组件\更新说明读取</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>更新文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoUpdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoUpdateDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InetFile.h">
+      <Filter>更新文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InetFiles.h">
+      <Filter>更新文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateFile.h">
+      <Filter>更新文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateFiles.h">
+      <Filter>更新文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>全局</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalizeItemDefinition.h">
+      <Filter>组件\本地化（多语言）</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalizeMgr.h">
+      <Filter>组件\本地化（多语言）</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\HashMgr.h">
+      <Filter>组件\HASH计算</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\IniFileOperations.h">
+      <Filter>组件\INI文件操作</Filter>
+    </ClInclude>
+    <ClInclude Include="FullScreenChecker.h">
+      <Filter>组件\全屏检测</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateHintFileReader.h">
+      <Filter>组件\更新说明读取</Filter>
+    </ClInclude>
+    <ClInclude Include="unlocker.hpp">
+      <Filter>组件\删除文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>更新文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoLock.h">
+      <Filter>更新文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AutoUpdate.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\AutoUpdate.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoUpdate.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

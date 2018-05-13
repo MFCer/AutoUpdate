@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="组件">
+      <UniqueIdentifier>{f31ee7cd-e5a9-4c46-ac7b-44f68377fbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\INI文件操作">
+      <UniqueIdentifier>{a61c06aa-7579-4643-aa64-9d34d545f663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\数字分组">
+      <UniqueIdentifier>{09ad1beb-9283-42f3-8005-a0b2df08e4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\文件版本">
+      <UniqueIdentifier>{b5ac61f9-6eee-4814-a969-ac864707f97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件\HASH计算">
+      <UniqueIdentifier>{81bd9a73-ad84-494f-8bb0-968aee4150b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="全局">
+      <UniqueIdentifier>{0200dfa2-8e51-4f06-892c-146d7217b636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoUpdateConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageFileListCfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageUpdateHintCfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SheetAutoUpdate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\IniFileOperations.cpp">
+      <Filter>组件\INI文件操作</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitGrouping.cpp">
+      <Filter>组件\数字分组</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfoMgr.cpp">
+      <Filter>组件\文件版本</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\HashMgr.cpp">
+      <Filter>组件\HASH计算</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoUpdateConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageFileListCfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageUpdateHintCfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SheetAutoUpdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\IniFileOperations.h">
+      <Filter>组件\INI文件操作</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitGrouping.h">
+      <Filter>组件\数字分组</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfoMgr.h">
+      <Filter>组件\文件版本</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\HashMgr.h">
+      <Filter>组件\HASH计算</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>全局</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AutoUpdateConfig.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\AutoUpdateConfig.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoUpdateConfig.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

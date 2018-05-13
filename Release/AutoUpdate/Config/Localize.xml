@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="GB2312" ?> 
+<Lang>
+	<Lang0>
+		<Item0>该程序不需要手动调用!</Item0>
+		<Item1>系统提示</Item1>
+		<Item2>自动更新客户端正在运行...</Item2>
+		<Item3>正在下载</Item3>
+		<Item4>当前：%s %.2f%%\r\n总进度：%.2f%%</Item4>
+		<Item5>发现可用更新</Item5>
+		<Item6>最新特性：</Item6>
+		<Item7>确认开始下载更新吗？</Item7>
+		<Item8>下个更新前不再提示我</Item8>
+		<Item9>是</Item9>
+		<Item10>否</Item10>
+		<Item11>下载完成</Item11>
+		<Item12>更新将在重启程序后生效。</Item12>
+		<Item13>更新准备就绪</Item13>
+		<Item14>是否确认替换文件，以完成更新？\r\n（请先保存当前工作，以免丢失）</Item14>
+		<Item15>恭喜</Item15>
+		<Item16>更新完成！</Item16>
+	</Lang0>
+	<Lang1>
+		<Item0>該程式不需要手動調用!</Item0>
+		<Item1>系統提示</Item1>
+		<Item2>自動更新客戶端正在運行...</Item2>
+		<Item3>正在下載</Item3>
+		<Item4>當前：%s %.2f%%\r\n總進展：%.2f%%</Item4>
+		<Item5>發現可用更新</Item5>
+		<Item6>最新功能：</Item6>
+		<Item7>確定開始下載更新嗎？</Item7>
+		<Item8>下個更新前不再提示我</Item8>
+		<Item9>是</Item9>
+		<Item10>否</Item10>
+		<Item11>下載完成</Item11>
+		<Item12>更新將在重啟程序后生效。</Item12>
+		<Item13>更新準備就位</Item13>
+		<Item14>是否確認替換文件，以完成更新？\r\n（請先保存當前工作，以免丟失）</Item14>
+		<Item15>恭喜</Item15>
+		<Item16>更新完成！</Item16>
+	</Lang1>
+	<Lang2>
+		<Item0>This program do not need manual open!</Item0>
+		<Item1>System hint</Item1>
+		<Item2>Auto Update Client is Running...</Item2>
+		<Item3>Downloading</Item3>
+		<Item4>Current: %s %.2f%%\r\nTotal progress: %.2f%%</Item4>
+		<Item5>New update available</Item5>
+		<Item6>Latest features:</Item6>
+		<Item7>Are you sure to start downloading?</Item7>
+		<Item8>Do not show me this message until next update.</Item8>
+		<Item9>YES</Item9>
+		<Item10>NO</Item10>
+		<Item11>Download complete</Item11>
+		<Item12>Update will take effect after restarting the program.</Item12>
+		<Item17>Download completed. Update will take effect after reboot.</Item17>
+		<Item13>Ready to update files</Item13>
+		<Item14>Are you sure to complete update?\r\n(Save your current work, so as not to lose.)</Item14>
+		<Item15>Congratulations</Item15>
+		<Item16>Update complete.</Item16>
+	</Lang2>
+</Lang>
