@@ -23,6 +23,7 @@ typedef std::basic_string<TCHAR, std::char_traits<TCHAR>, std::allocator<TCHAR> 
 #pragma comment(lib, "psapi.lib")
 
 #include <TlHelp32.h>
+#include <bcrypt.h>
 
 #define STATUS_SUCCESS				((NTSTATUS)0x00000000L)
 #define STATUS_INFO_LENGTH_MISMATCH	((NTSTATUS)0xC0000004L)
