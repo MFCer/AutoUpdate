@@ -3,6 +3,8 @@
 本项目是一款基于MFC实现的自动更新模块
 
 [![license](https://img.shields.io/badge/license-Apache%202-brightgreen.svg?style=flat)](https://github.com/MFCer/AutoUpdate/blob/master/LICENSE)
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/ExpLife0011/awesome-windows-kernel-security-development#windows-system-programming)
+
 
 # 特点
 
