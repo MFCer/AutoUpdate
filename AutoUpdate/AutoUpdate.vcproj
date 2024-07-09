@@ -183,7 +183,7 @@
 	</References>
 	<Files>
 		<Filter
-			Name="Ô´ÎÄ¼þ"
+			Name="æºæ–‡ä»¶"
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
@@ -217,7 +217,7 @@
 			</File>
 		</Filter>
 		<Filter
-			Name="Í·ÎÄ¼þ"
+			Name="å¤´æ–‡ä»¶"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
@@ -243,7 +243,7 @@
 			</File>
 		</Filter>
 		<Filter
-			Name="×ÊÔ´ÎÄ¼þ"
+			Name="èµ„æºæ–‡ä»¶"
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
@@ -261,7 +261,7 @@
 			</File>
 		</Filter>
 		<Filter
-			Name="¸üÐÂÎÄ¼þ"
+			Name="æ›´æ–°æ–‡ä»¶"
 			>
 			<File
 				RelativePath=".\InetFile.cpp"
@@ -280,15 +280,15 @@
 				>
 			</File>
 			<File
-				RelativePath=".\MagonAutoLock.h"
+				RelativePath=".\AutoLock.h"
 				>
 			</File>
 			<File
-				RelativePath=".\MagonThread.cpp"
+				RelativePath=".\Thread.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\MagonThread.h"
+				RelativePath=".\Thread.h"
 				>
 			</File>
 			<File
@@ -309,7 +309,7 @@
 			</File>
 		</Filter>
 		<Filter
-			Name="È«¾Ö"
+			Name="å…¨å±€"
 			>
 			<File
 				RelativePath=".\Global.cpp"
@@ -321,10 +321,10 @@
 			</File>
 		</Filter>
 		<Filter
-			Name="×é¼þ"
+			Name="ç»„ä»¶"
 			>
 			<Filter
-				Name="±¾µØ»¯£¨¶àÓïÑÔ£©"
+				Name="æœ¬åœ°åŒ–ï¼ˆå¤šè¯­è¨€ï¼‰"
 				>
 				<File
 					RelativePath=".\LocalizeItemDefinition.h"
@@ -340,7 +340,7 @@
 				</File>
 			</Filter>
 			<Filter
-				Name="HASH¼ÆËã"
+				Name="HASHè®¡ç®—"
 				>
 				<File
 					RelativePath="..\Common\HashMgr.cpp"
@@ -352,7 +352,7 @@
 				</File>
 			</Filter>
 			<Filter
-				Name="INIÎÄ¼þ²Ù×÷"
+				Name="INIæ–‡ä»¶æ“ä½œ"
 				>
 				<File
 					RelativePath="..\Common\IniFileOperations.cpp"
@@ -364,7 +364,7 @@
 				</File>
 			</Filter>
 			<Filter
-				Name="È«ÆÁ¼ì²â"
+				Name="å…¨å±æ£€æµ‹"
 				>
 				<File
 					RelativePath=".\FullScreenChecker.cpp"
@@ -376,7 +376,7 @@
 				</File>
 			</Filter>
 			<Filter
-				Name="¸üÐÂËµÃ÷¶ÁÈ¡"
+				Name="æ›´æ–°è¯´æ˜Žè¯»å–"
 				>
 				<File
 					RelativePath=".\UpdateHintFileReader.cpp"
@@ -388,22 +388,10 @@
 				</File>
 			</Filter>
 			<Filter
-				Name="É¾³ýÎÄ¼þ"
+				Name="åˆ é™¤æ–‡ä»¶"
 				>
 				<File
-					RelativePath=".\MGDeleteFile.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\MGDeleteFile.h"
-					>
-				</File>
-				<File
-					RelativePath=".\SystemInfo.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\SystemInfo.h"
+					RelativePath=".\unlocker.hpp"
 					>
 				</File>
 			</Filter>
